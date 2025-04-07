@@ -28,7 +28,7 @@ from django.conf import settings
 pytesseract.pytesseract.tesseract_cmd = r'D:\Tesseract-OCR\tesseract.exe'
 
 # Deepseek API 配置
-DEEPSEEK_API_KEY = 'sk-5c5fd7f2995542e1ab0507eecf8e1100'
+DEEPSEEK_API_KEY = 'your_api'
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
 
 def process_with_deepseek(text):
